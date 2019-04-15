@@ -1,0 +1,6 @@
+{
+  "permissionsplugin": {
+    "supportsPkg" : ["*"],
+    "interposesOn": ["location"]
+  }
+}

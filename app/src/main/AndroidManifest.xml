@@ -1,0 +1,15 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="blind.al.geoindplugin">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application android:allowBackup="true">
+        <service android:enabled="true" android:name=".PluginMain" android:exported="true" android:process=":remote">
+
+            <intent-filter>
+                <action android:name="blind.al.geoindplugin.PluginMain"></action>
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>
